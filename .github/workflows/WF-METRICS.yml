@@ -22,7 +22,7 @@ jobs:
           config_timezone: Europe/Moscow
           plugin_habits: yes
           plugin_habits_charts: yes
-          plugin_habits_days: 14
+          plugin_habits_days: 28
           plugin_habits_facts: yes
           plugin_habits_from: 200
           plugin_introduction: yes
@@ -30,9 +30,15 @@ jobs:
           plugin_languages: yes
           plugin_languages_colors: github
           plugin_languages_limit: 8
-          plugin_languages_recent.days: 14
+          plugin_languages_recent.days: 28
           plugin_languages_recent.load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_lines: yes
+          plugin_contributors: yes
+          plugin_contributors_base: ""           # Base reference (commit, tag, branch, etc.)
+          plugin_contributors_head: main       # Head reference (commit, tag, branch, etc.)
+          # plugin_contributors_ignored: bot       # Ignore "bot" user
+          plugin_contributors_contributions: yes # Display number of contributions for each contributor
+
  
